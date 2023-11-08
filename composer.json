@@ -1,0 +1,22 @@
+{
+  "name": "fibit/bitrix-entity-helper",
+  "type": "library",
+  "description": "Entity Helper Class for the Bitrix Framework",
+  "keywords": ["helper", "highloadblock helper", "bitrix helper", "bitrix framework", "highloadblock", "bitrix", "dev"],
+  "homepage": "https://github.com/fibit/bitrix-entity-helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Romanov",
+      "email": "pr@kolibri.pw"
+    }
+  ],
+  "require": {
+    "php":">=7.0"
+  },
+  "autoload":{
+    "classmap":[
+      "./lib/EntityHelper.php"
+    ]
+  }
+}
